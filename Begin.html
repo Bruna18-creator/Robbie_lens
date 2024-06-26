@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="File_CSS.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather&family=PT+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
-    <title>  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="File_CSS.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather&family=PT+Sans&family=Playfair+Display:ital@1&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans&family=Playfair+Display:ital@1&display=swap"
+    rel="stylesheet">
+  <title> </title>
 </head>
+
 <body>
-    <nav>  
-      <div class="T">
-       <div class="Logo"><img src="Logo.png"> </div> 
-       <div class="L">
-        <a href="Begin.html" class="D" > Accueil</a> 
+  <nav>
+    <div class="T">
+      <div class="Logo"><img src="Images/Logo.png"> </div>
+      <div class="L">
+        <a href="Begin.html" class="D"> Accueil</a>
         <a href="A_propos.html" class="D"> A propos </a>
-       <a href="" class="D" > Portfolio</a></div>
+        <a href="" class="D">Portfolio</a>
       </div>
-    </nav>
-    <main>
-      <section class="Section_1">
-        <div class="Photo"> <img src="Photo.png"></div>
-        <div class="paragraph">
+    </div>
+  </nav>
+  <main>
+    <section class="Section_1">
+      <div class="paragraph">
         <h1> Robbie Lens <br>Photographie </h1>
-        <p class="P"> Ou <span class="Words"> professionnalisme </span>  s'allie avec <span class="Words"> passion </span>. Depuis plus de 5 ans maintenant , j'exerce mon métier avec la passion qui m'anime : capturer l'essence de chaque instant. </p><br>
-        <button> <a mailto =""> UN PROJET ? ECRIVEZ-MOI </a> </button>
-        </div>
-       </section>
-       <section class="Section_2">
-        <p class="LP"> Mon dernier projet </p>
-        <div class="Last_project">
-          <div><img src="element-1.png"></div>
-          <div><img src="element-2.png"></div>
-          <div><img src="element-3.png"></div>
-          <div><img src="element-4.png"></div>
-          <div><img src="element-5.png"></div>
-          <div><img src="element-6.png"></div>
-        </div>   
-       </section>
-       <section class="Section_3">
-        <p class="Pa"> Parlons de votre projet </p>
-        <form> 
+        <p class="P"> Ou <span class="Words"> professionnalisme </span> s'allie avec <span class="Words"> passion
+          </span>. Depuis plus de 5 ans maintenant , j'exerce mon métier avec la passion qui m'anime : capturer
+          l'essence de chaque instant. </p><br>
+        <button> <a mailto=""> UN PROJET ? ECRIVEZ-MOI </a> </button>
+      </div>
+      <div class="Photo">
+        <img src="Images/Photo.png">
+      </div>
+    </section>
+    <section class="Section_2">
+      <p class="LP"> Mon dernier projet </p>
+      <div class="Last_project">
+        <div><img src="Images/element-1.png"></div>
+        <div><img src="Images/element-2.png"></div>
+        <div><img src="Images/element-3.png"></div>
+        <div><img src="Images/element-4.png"></div>
+        <div><img src="Images/element-5.png"></div>
+        <div><img src="Images/element-6.png"></div>
+      </div>
+    </section>
+    <section class="Section_3">
+      <p class="Pa"> Parlons de votre projet </p>
+      <form>
         <div class="form">
+          <div>
+            <label for="nom"> Nom </label><br><br>
+            <input type="text" maxlength="100" id="nom" name="nom">
+          </div>
+          <div>
+            <label for="email"> Email</label><br><br>
+            <input type="email" id="email">
+          </div>
+          <div id="message">
+            <label for="message"> Message </label><br><br>
+            <textarea id="message"></textarea>
+          </div>
+        </div>
+        <input type="submit" class="submit" value="Envoyer">
+      </form>
+    </section>
+    <footer>
+      <div>
+        <img src="Images/Logo.png">
+      </div>
+      <div class="Link">
         <div>
-          <label for="nom"> Nom </label><br><br>
-          <input type="text" maxlength="100" id="nom" name="nom">
+          <img src="Images/Twit.png">
         </div>
         <div>
-          <label   for="email"> Email</label><br><br>
-          <input  type="email" id="email">
-        </div>
-        <div id="message">
-          <label for="message"> Message </label><br><br>
-          <textarea id="message"></textarea>
+          <img src="Images/instagram.png">
         </div>
       </div>
-        <input type="submit" class="submit" value="Envoyer">   
-       </form>
-       </section>
-       <footer>
-        <div>
-        <img src="Logo.png">
-        </div>
-        <div class="Link">
-        <div>
-        <img src="Twit.png">
-        </div>
-        <div>
-        <img src="instagram.png">
-        </div>
-        </div>
-        
-       </footer>
-    </main>
+
+    </footer>
+  </main>
 </body>
+
 </html
